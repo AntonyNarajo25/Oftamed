@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-primary {
+    color: #004AAD !important;
+}
+
+.btn-success {
+    background-color: #00A859;
+    border-color: #00A859;
+}
+
+.btn-success:hover {
+    background-color: #00914b;
+    border-color: #00914b;
+}
+
+.btn-outline-primary {
+    color: #004AAD;
+    border-color: #004AAD;
+}
+
+.btn-outline-primary:hover {
+    background-color: #004AAD;
+    color: white;
+}
+
+#navbar {
+    transition: top 0.4s;
+}
+
+.nav-link:hover {
+    color: #00A859 !important;
+    transition: 0.3s;
+}
+
+footer {
+    font-size: 0.9rem;
+}
